@@ -12,8 +12,13 @@
 //     Đây là đoạn test "hello"
 // `;
 // console.log(`Text là ${textTest}`);
-var person = {
-    name: "Hau",
-    age: "24",
-};
-console.log("T\u00EAn l\u00E0 ".concat(person));
+// let person: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Hau",
+//   age: 24,
+// };
+// console.log(`Tên là ${person}`);
+var myArray = ["hauct", "hau2", "hau3"];
+console.log("array string l\u00E0 ".concat(myArray));

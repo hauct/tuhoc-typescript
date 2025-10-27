@@ -20,12 +20,36 @@
 
 // console.log(`Text là ${textTest}`);
 
-let person: {
-  name: string;
-  age: number;
-} = {
-  name: "Hau",
-  age: 24,
-};
+// let person: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Hau",
+//   age: 24,
+// };
 
-console.log(`Tên là ${person}`);
+// console.log(`Tên là ${person}`);
+
+// let myArray: (string | number)[] = ["hauct", "hau2", "hau3"];
+// console.log("array string là", myArray);
+
+//tuple: dataType/size/order
+// let skills2: [string, number] = ["Hội Dân IT", 25];
+
+// let skills3: [boolean, string, number];
+
+// skills3 = [true, "Eric", 25];
+
+function promiseExp() {
+  return new Promise((resolve, reject) => {
+    reject("hello");
+  });
+}
+
+promiseExp()
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log("nigga what");
+  });
